@@ -12,7 +12,7 @@ def target(subdominios):
             url_http = f"http://{subdominio}.{args.target}"
             print(f"|+| Sitio: {url_http} |+| HTTP: {requests.codes.ok}")
              
-            url_https = f"http://{subdominio}.{args.target}"
+            url_https = f"https://{subdominio}.{args.target}"
             print(f"|+| Sitio {url_https} |+| HTTPS: {requests.codes.ok}")
 
     return results
